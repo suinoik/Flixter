@@ -2,7 +2,7 @@
 
 **Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: 25 hours spent in total
+Time spent: 30 hours spent in total
 
 ## User Stories
 
@@ -11,8 +11,8 @@ The following **required** functionality is complete:
 - [x] User sees an app icon on the home screen and a styled launch screen.
 - [x] User can view a list of movies currently playing in theaters from The Movie Database.
 - [x] Poster images are loaded using the UIImageView category in the AFNetworking library.
-- [ ] User sees a loading state while waiting for the movies API.
-- [ ] User can pull to refresh the movie list.
+- [x] User sees a loading state while waiting for the movies API.
+- [x] User can pull to refresh the movie list.
 - [x] User sees an error message when there's a networking error.
 - [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
@@ -48,6 +48,9 @@ Video Walkthrough: https://gyazo.com/e932bf12164c77b1dda7f4446566665b
 GIF created with [Kap](https://getkap.co/).
 
 ![Kapture 2022-06-21 at 12 55 50](https://user-images.githubusercontent.com/75452326/174886681-2de958ae-a01d-4782-aa38-ecf3ba064f19.gif)
+
+![Kapture 2022-06-21 at 14 57 34](https://user-images.githubusercontent.com/75452326/174903956-abdb8955-e900-4ddd-84f3-9a9ee0496d5a.gif)
+
 
 ## Notes
 
