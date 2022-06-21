@@ -47,6 +47,8 @@ Video Walkthrough: https://gyazo.com/e932bf12164c77b1dda7f4446566665b
 
 GIF created with [Kap](https://getkap.co/).
 
+![Kapture 2022-06-21 at 12 55 50](https://user-images.githubusercontent.com/75452326/174886681-2de958ae-a01d-4782-aa38-ecf3ba064f19.gif)
+
 ## Notes
 
 Describe any challenges encountered while building the app.
