@@ -47,7 +47,7 @@
                [self presentViewController:alert animated:YES completion:nil];
            }
            else {
-//               [self.activityIndicator stopAnimating];
+               [self.activityIndicator stopAnimating];
                NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
 //               NSLog(@"%@", dataDictionary);
                NSArray *moviesArray = dataDictionary[@"results"];
