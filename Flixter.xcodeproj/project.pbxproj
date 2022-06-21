@@ -17,6 +17,9 @@
 		444D3CC6285A483C00FB9C13 /* FlixterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444D3CC5285A483C00FB9C13 /* FlixterUITests.m */; };
 		444D3CC8285A483C00FB9C13 /* FlixterUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444D3CC7285A483C00FB9C13 /* FlixterUITestsLaunchTests.m */; };
 		444D3CD9285A752D00FB9C13 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444D3CD8285A752D00FB9C13 /* MovieViewController.m */; };
+		44744BCA28624E7900160BCE /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44744BC928624E7900160BCE /* DetailsViewController.m */; };
+		44744BCD286252C900160BCE /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44744BCC286252C900160BCE /* GridViewController.m */; };
+		44744BD02862538200160BCE /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44744BCF2862538200160BCE /* GridCell.m */; };
 		44976BBE285D25220010530B /* movieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44976BBD285D25220010530B /* movieCell.m */; };
 		44976BC1285D2CE90010530B /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44976BC0285D2CE90010530B /* customCell.m */; };
 		57F5879EEC2D126D82F42EB6 /* Pods_Flixter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC614E49E901415C95A0F47 /* Pods_Flixter.framework */; };
@@ -62,6 +65,12 @@
 		444D3CC7285A483C00FB9C13 /* FlixterUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlixterUITestsLaunchTests.m; sourceTree = "<group>"; };
 		444D3CD7285A752D00FB9C13 /* MovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		444D3CD8285A752D00FB9C13 /* MovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		44744BC828624E7900160BCE /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		44744BC928624E7900160BCE /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		44744BCB286252C900160BCE /* GridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
+		44744BCC286252C900160BCE /* GridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
+		44744BCE2862538200160BCE /* GridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		44744BCF2862538200160BCE /* GridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
 		44976BBC285D25220010530B /* movieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movieCell.h; sourceTree = "<group>"; };
 		44976BBD285D25220010530B /* movieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movieCell.m; sourceTree = "<group>"; };
 		44976BBF285D2CE90010530B /* customCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
@@ -135,7 +144,13 @@
 				444D3CA3285A483A00FB9C13 /* SceneDelegate.m */,
 				444D3CD7285A752D00FB9C13 /* MovieViewController.h */,
 				444D3CD8285A752D00FB9C13 /* MovieViewController.m */,
+				44744BC828624E7900160BCE /* DetailsViewController.h */,
+				44744BC928624E7900160BCE /* DetailsViewController.m */,
 				444D3CA8285A483A00FB9C13 /* Main.storyboard */,
+				44744BCE2862538200160BCE /* GridCell.h */,
+				44744BCF2862538200160BCE /* GridCell.m */,
+				44744BCB286252C900160BCE /* GridViewController.h */,
+				44744BCC286252C900160BCE /* GridViewController.m */,
 				44976BBF285D2CE90010530B /* customCell.h */,
 				44976BC0285D2CE90010530B /* customCell.m */,
 				444D3CAB285A483C00FB9C13 /* Assets.xcassets */,
@@ -183,7 +198,6 @@
 				DF272AFFBC8BC594EC6974A2 /* Pods-FlixterTests.debug.xcconfig */,
 				FDBB6B80BECE29837C3417FE /* Pods-FlixterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -429,7 +443,10 @@
 				444D3CA1285A483A00FB9C13 /* AppDelegate.m in Sources */,
 				44976BBE285D25220010530B /* movieCell.m in Sources */,
 				444D3CB2285A483C00FB9C13 /* main.m in Sources */,
+				44744BCD286252C900160BCE /* GridViewController.m in Sources */,
+				44744BCA28624E7900160BCE /* DetailsViewController.m in Sources */,
 				444D3CA4285A483A00FB9C13 /* SceneDelegate.m in Sources */,
+				44744BD02862538200160BCE /* GridCell.m in Sources */,
 				444D3CD9285A752D00FB9C13 /* MovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,6 +621,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT37GYLU7C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Flixter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -631,6 +649,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT37GYLU7C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Flixter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
